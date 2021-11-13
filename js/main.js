@@ -10,7 +10,6 @@
 
 Table of Content
 
-	01. Music Background
 	02. Isotope Portfolio Setup
 	03. Blogs Masonry Setup
 	04. Preloader
@@ -29,30 +28,6 @@ Table of Content
 ----------------------------------- */
 
 $(window).on("load", function() {
-	
-	/* -----------------------------------
-			01. Music Background
-	----------------------------------- */
-	$('body').append('<audio loop autoplay volume="1" id="audio-player"><source src="music.mp3" type="audio/mpeg"></audio>');
-    	var audio = document.getElementById("audio-player");
-    	audio.volume = 0.2;
-	
-	if($(window).length) {
-		$('.music-bg').css({'visibility':'visible'});
-		$('body').addClass("audio-on");
-		if ($('body').hasClass('audio-off')) {
-        	$('body').removeClass('audio-on');
-		} 
-		$(".music-bg").on('click', function() {
-			$('body').toggleClass("audio-on audio-off");         
-			if ($('body').hasClass('audio-off')) {
-				audio.pause();
-			} 
-			if ($('body').hasClass('audio-on')) {
-				audio.play();
-			}
-		});
-	}
 	
 	/* -----------------------------------
 			02. Isotope Portfolio Setup
@@ -119,15 +94,10 @@ $(function() {
 	/* -----------------------------------
 			05. Drop Menu
 	----------------------------------- */
-	$('.animation-wrap').on('mouseenter mouseleave', function () {
+	/* $('.animation-wrap').on('mouseenter mouseleave', function () {
 		$(this).children('ul').stop(true, false, true).slideToggle(300);
-	});
-	
-	/* -----------------------------------
-			06. Newsletter Open
-	----------------------------------- */
-	$('.newsletter').on('click', function() {$('.newsletter-block').toggleClass('open');});
-	$('.news-close').on('click', function() {$('.newsletter-block').removeClass('open');});
+	}); */
+
 	
 	/* -----------------------------------
 			07. Portfolio Tilt
@@ -143,7 +113,7 @@ $(function() {
 	/* -----------------------------------
 			08. Testimonial Slider
 	----------------------------------- */
-	var swiper = new Swiper('.testimonials', {
+	var swiper = new Swiper('.education', {
       spaceBetween: 30,
       effect: 'fade',
       loop: true,
@@ -151,7 +121,7 @@ $(function() {
         invert: false,
       },
       pagination: {
-        el: '.testimonial-pagination',
+        el: '.education-pagination',
         clickable: true,
       }
     });
