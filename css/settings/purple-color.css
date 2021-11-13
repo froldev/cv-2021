@@ -9,7 +9,7 @@ blockquote span,
 .about .experience .main p,
 .blog-list .side-left .news p,
 .blog .blog-item .head .book i,
-.testimonial-content .rating li,
+.education-content .rating li,
 .animation-wrap ul li span.active,
 .contact .contact-info .info .desc span,
 .blog-page .blog-comments ul li .comment-text span,
@@ -30,7 +30,7 @@ blockquote span,
 .button:hover b:nth-child(1)::after,
 .button:hover b:nth-child(2)::before,
 .button:hover b:nth-child(2)::after,
-.testimonial-pagination .swiper-pagination-bullet-active {
+.education-pagination .swiper-pagination-bullet-active {
 	background: #9656a0;
 }
 

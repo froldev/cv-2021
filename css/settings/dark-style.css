@@ -1,0 +1,753 @@
+/* -----------------------------------------------
+				CSS Styles
+--------------------------------------------------
+
+    Template Name: Kyle - Creative Portfolio Template
+    Author: Malyarchuk
+    Copyright: 2019
+
+--------------------------------------------------
+
+Table of Content
+
+	01. Body and Core
+	02. Content Css
+	03. Home Section
+	04. About Section
+	05. Portfolio Section
+	06. Blog Section
+	07. Contact Section
+	08. Blog List
+	09. Blog Page
+	10. Cursor Style
+	11. Newsletter
+	12. Preloader
+	13. Tooltip
+	14. Responsible
+	15. Animation
+
+----------------------------------- */
+
+/* -----------------------------------
+		01. Body and Core Css
+----------------------------------- */
+body {
+	color: #fff;
+	background-color: #0e0f10;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover, 
+a:focus {
+	color: inherit;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { 
+	color: #fff;
+}
+
+p {
+	color: #fff;	
+}
+
+::-moz-selection {
+	background: #fff;
+	color: #0e0f10;
+}
+
+::selection {
+	background: #fff;
+	color: #0e0f10;
+}
+
+/* Blockquote */
+blockquote {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+/* Button Style */
+.button {
+	color: #fff;
+	background: none;
+}
+
+.button::after {
+	background: #fff;
+}
+
+.button:hover {
+	color: #fff !important;
+}
+
+.button:hover::after {
+	background: #fff;
+}
+
+.button b::before,
+.button b::after {
+	background: #fff;
+}
+
+.button:hover b:nth-child(1)::before,
+.button:hover b:nth-child(1)::after {
+	background: #fff;
+}
+
+.button:hover b:nth-child(2)::before,
+.button:hover b:nth-child(2)::after {
+	background: #fff;
+}
+
+/* Animation Text Button */
+.button span {
+	color: #fff;
+}
+
+.button:focus {
+	background: transparent;
+	color: #fff !important;
+}
+
+/* Box Style */
+.box {
+	background-color: #070708;
+}
+
+.box::before, .box::after {
+  background: var(--shadowColor);
+  -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+	-o-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+	-ms-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+}
+
+.box h4:after {
+	background-color: #0e0f10;
+}
+
+/* -----------------------------------
+		02. Content Css
+----------------------------------- */
+.page-wrap {
+	-webkit-box-shadow: 0 0 1000px 500px #000;
+			box-shadow: 0 0 1000px 500px #000;
+}
+
+.show-all .page:hover:before {
+	background-color: rgba(14, 15, 16, .7);
+}
+
+.page-nav {
+	color: #fff;
+}
+
+svg g [fill] {
+	fill: #fff;
+}
+
+.page-nav:hover svg g [fill],
+.header-page:hover svg g [fill],
+.style-color-block:hover svg g [fill],
+.slider-control:hover svg g [fill],
+.about .info-icon:hover svg g [fill],
+.item figure:hover svg.icon g [fill],
+.about .experience .item:hover svg g [fill],
+.item figure:hover figcaption p svg g [fill],
+.blog-head .desc span:hover svg g [fill],
+.blog-page .blog-head .bread-crumb li a.home:hover svg g [fill],
+.blog-list .blog-head .bread-crumb li a.home:hover svg g [fill],
+.blog-list .side-left .tags:hover svg g [fill],
+.blog-list .side-left .categories:hover svg g [fill],
+.blog-list .side-left .archives:hover svg g [fill],
+.blog-list .side-left .gallery:hover svg g [fill],
+.blog-list .side-left .news:hover svg g [fill],
+.blog-list .blog-post .main .thumbnail:hover svg g [fill] {
+	fill: #fff;
+}
+
+/* Content Page */
+.content {
+	background: #0e0f10;
+}
+
+.about:after,
+.blog:after,
+.contact:after,
+.portfolio:after {
+	border: 55px solid rgba(7, 7, 8);
+	-webkit-box-shadow: inset 0 0 5px 0 rgba(14, 15, 16, .5);
+			box-shadow: inset 0 0 5px 0 rgba(14, 15, 16, .5);
+}
+
+/* -----------------------------------
+		03. Home Section
+----------------------------------- */
+.background:before,
+.glitch:before,
+.html-video-container:before {
+    background: rgba(0, 0, 0, .5);
+    border: 55px solid rgba(14, 15, 16, .7);
+    -webkit-box-shadow: inset 0 0 5px 0 rgba(14, 15, 16, .5);
+            box-shadow: inset 0 0 5px 0 rgba(14, 15, 16, .5);
+}
+
+/* Mouse Scroll Down */
+.scroll-down {
+	border-left: 1px solid rgba(255, 255, 255, .1);
+}
+
+.mouse {
+	border: 2px solid rgba(255, 255, 255, .3);
+}
+
+.scroller {
+	background-color: #fff;
+}
+
+
+/* Slider Button */
+.slider-nav:before {
+	background: #fff;
+}
+
+.slider-nav:after {
+	background: #fff;
+}
+
+.slider-control {
+	color: #fff;
+}
+
+/* Banner */
+.banner {
+	color: #fff;
+}
+
+.banner h1 {
+	color: #fff;
+}
+
+.banner p {
+	color: #fff;
+}
+
+/* Button All Menu */
+
+.page-zoom span:before {
+	background: #fff;
+}
+
+.page-zoom span:after {
+	background: #fff;
+}
+
+.page-zoom:hover span:after {
+	background: #fff;
+}
+
+/* Animation List */
+.style-color-block {
+	background-color: rgba(14, 15, 16, .7);
+}
+
+.style-color-block .style-color {
+    color: #fff;
+    background-color: rgba(14, 15, 16, .7);
+}
+
+.style-color-block .style-color h4 {
+    color: #fff;
+}
+
+.style-sea {
+	background-color: #0dcdbd;
+}
+.style-green {
+	background-color: #25ca7f;
+}
+.style-blue {
+	background-color: #00a3e1;
+}
+.style-red {
+	background-color: #d94c48;
+}
+.style-purple {
+	background-color: #bb68c8;
+}
+.style-yellow {
+	background-color: #eae328;
+}
+
+/* Social */
+.page .social svg:hover,
+.page .theme-color svg:hover,
+.page .theme-color .active {
+	fill: #fff;
+}
+
+.page:before {
+	background-color: transparent;
+}
+
+/* -----------------------------------
+		04. About Section
+----------------------------------- */
+/* User Info Block */
+.about .info .loc {
+	color: #fff;
+}
+
+.about .info-icon svg {
+	color: #fff;
+	background: #0e0f10;
+}
+
+.about .desc-icon p {
+	color: #fff;
+}
+
+/* My Interests */
+.about .inter-icon {
+	background: #0e0f10;
+}
+
+.about .inter-icon i {
+	color: #fff;
+}
+
+.about .inter-icon:before {
+	border: 4px solid #070708;
+}
+
+.about .inter-icon:hover:before {
+	background: #070708;
+}
+
+/* education */
+
+.education-img {
+	-webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+			box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.education-img:after {
+	background-color: #000;
+}
+
+.education-content span {
+	color: #fff;
+}
+
+.education-content h5 {
+	background: -webkit-linear-gradient( #fff, #a1a1a1 );
+	-webkit-text-fill-color: transparent;
+}
+
+.education-content p {
+	color: #fff;
+}
+
+.education-pagination .swiper-pagination-bullet {
+	background: #363a3e;
+}
+
+.education-pagination .swiper-pagination-bullet-active {
+	background: #fff;
+}
+
+/* Skills */
+.about .skill-item .progress {
+	background-color: #0e0f10;
+}
+
+.about .skill-item .progress .progress-bar {
+    background-color: #fff;
+}
+
+.about .skill-item .progress .progress-bar:after {
+    background-color: #070708;
+    border: 3px solid #fff;
+}
+
+.about .skill-item .progress .progress-value {
+    color: #fff;
+}
+
+/* Experience */
+.about .experience .item {
+	border-bottom: 1px solid #0e0f10;
+}
+
+.about .experience p {
+	color: #fff;
+}
+
+.about .experience .main p {
+	color: #fff;
+}
+
+/* -----------------------------------
+		05. Portfolio Section
+----------------------------------- */
+/* Portfolio Filter */
+.portfolio .portfolio-filter ul {
+    background-color: #070708;
+}
+
+.portfolio .portfolio-filter ul li.active {
+	color: #0e0f10;
+	background-color: #fff;
+}
+
+/* Portfolio Item */
+.portfolio .portfolio-items .item figure {
+	background-color: #0e0f10;
+}
+
+.portfolio .portfolio-items .item figure figcaption {
+	background-color: rgba(14, 15, 16, .4);
+	color: #fff;
+}
+
+.portfolio .portfolio-items .item figure figcaption h3 {
+	color: #fff;
+	background: -webkit-linear-gradient( #fff, #a1a1a1 );
+    -webkit-text-fill-color: transparent;
+}
+  
+.portfolio .portfolio-items .item figure figcaption p i {
+	color: #fff;
+}
+
+/* -----------------------------------
+		06. Blog Section
+----------------------------------- */
+.blog .blog-item {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.blog .blog-item.two .desc {
+	background-color: rgba(0, 0, 0, .7);
+}
+
+.blog .blog-item h4 {
+	background: -webkit-linear-gradient( #fff, #a1a1a1);
+	-webkit-text-fill-color: transparent;
+}
+
+.blog .blog-item h4:before {
+    background: #0e0f10;
+}
+
+.blog .blog-item ul li:not(:last-child):after {
+	background-color: #fff;
+}
+
+.blog .blog-item .head {
+	background: rgba(7, 7, 8, .7);
+	border-bottom: 3px solid #0e0f10;
+}
+
+.blog .blog-item.two .head {
+	background: transparent;	
+}
+
+
+.blog .blog-item .head .date {
+	color: rgba(250, 250, 250, .6);
+}
+
+.blog .blog-item .head .book i {
+	color: #fff;
+}
+
+.blog .blog-item .head .book i:hover {
+	color: #fff;
+}
+
+/* -----------------------------------
+		07. Contact Section
+----------------------------------- */
+.contact-form input,
+.contact-form textarea {
+	background: transparent;
+    border-bottom: 1px solid #444;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+}
+
+/* Contact info */
+.contact .contact-info .info i {
+	color: #fff;
+    background: #0e0f10;
+}
+
+.contact .contact-info .info .desc span {
+    color: #848484;
+}
+
+/* Contact validation */
+.contact-valid label.error {
+	color: #ff0000;
+}
+
+.contact-valid #loader i {
+    color: #fff;
+}
+
+.contact-valid #success,
+.contact-valid #error {
+	color: #fff;
+}
+
+.contact-valid #success i {
+	color: #25ca7f;
+}
+
+.contact-valid #error i {
+	color: #ca1d1d;
+}
+
+/* -----------------------------------
+		08. Blog List
+----------------------------------- */
+.blog-page,
+.blog-list {
+    background-color: #0e0f10;
+}
+
+/* Blog Head */
+.blog-page .blog-head:before,
+.blog-list .blog-head:before {
+	background: rgba(14, 15, 16, .7);
+}
+
+.blog-page .blog-head h1,
+.blog-list .blog-head h1 {
+	color: #fff;
+	background: -webkit-linear-gradient( #fff, #dadada );
+	-webkit-text-fill-color: transparent;
+}
+
+.blog-page .blog-head .bread-crumb,
+.blog-list .blog-head .bread-crumb {
+	background: #151719;
+	-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, .3);
+			box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, .3);
+}
+
+.blog-page .blog-head .bread-crumb li,
+.blog-list .blog-head .bread-crumb li {
+	color: #fff;
+}
+
+.blog-list .blog-post {
+	border-bottom: 2px solid #070708;
+}
+
+.blog-list .blog-post .main .thumbnail ul {
+	border-top: 3px solid #0e0f10;
+	background: rgba(7, 7, 8, .7);
+}
+
+.blog-list .blog-post .main .thumbnail ul li {
+	color: #fff;
+}
+
+.blog-list .blog-post .main .detalis {
+    background-color: #070708;
+}
+
+.blog-list .blog-post .main .detalis h4 {
+	color: #fff;
+}
+
+.blog-list .blog-post .main .detalis p {
+	color: #fff;
+}
+
+/* Pagination Style */
+.blog-list .pagination li a:hover {
+    background: #0e0f10;
+	color: #fff !important;
+    border: 1px solid transparent;
+}
+
+.blog-list .pagination li a {
+    background: transparent;
+    border: 1px solid #070708;
+}
+
+.blog-list .pagination li.active a {
+    background: #070708;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+/* SideBar Left */
+.blog-list .side-left .title:after {
+	background-color: #0e0f10;
+}
+
+/* Search Style */
+.blog-list .side-left .search {
+	background: transparent;
+}
+
+.blog-list .side-left .search .input-group {
+    border: 1px solid #fff;
+    background: #070708;
+}
+
+.blog-list .side-left .search .input-group .input-group-text {
+    background: transparent;
+    color: #fff;
+}
+
+.blog-list .side-left .search .input-group .form-control {
+	color: #fff;
+	background: transparent;
+}
+
+/* Categories and Archives */
+.blog-list .side-left .categories ul li,
+.blog-list .side-left .archives  ul li {
+	border-bottom: 1px solid #070708;
+}
+
+.blog-list .side-left .categories ul li:before,
+.blog-list .side-left .archives ul li:before {
+	border: 2px solid #fff;
+}
+
+.blog-list .side-left .categories ul li:hover:before,
+.blog-list .side-left .archives ul li:hover:before {
+	border: 4px solid #fff;
+	-webkit-box-shadow: 0 0 5px 0px #fff;
+			box-shadow: 0 0 5px 0px #fff;
+}
+
+/* Recent News */
+.blog-list .side-left .news li {
+	border-bottom: 1px solid #070708;
+}
+
+.blog-list .side-left .news p {
+	color: #fff;
+}
+
+/* Tags */
+.blog-list .side-left .tags ul li a {
+	color: #fff;
+	background-color: #0e0f10;
+}
+
+.blog-list .side-left .tags ul li a:hover {
+	background-color: #070708 !important;
+}
+
+/* -----------------------------------
+		09. Blog Page
+----------------------------------- */
+.blog-page .blog-head .desc span {
+	color: #fff;
+}
+
+.blog-page .blog-head .desc span:after {
+	background-color: #fff;
+}
+
+/* Blog Comments */
+.blog-page .blog-comments ul li ul {
+	background-color: rgb(14, 15, 16);
+	border-left: 1px solid #2f9064;
+}
+
+.blog-page .blog-comments ul li .comment-text a {
+	background-color: rgb(14, 15, 16);
+}
+
+.blog-page .blog-comments ul li .comment-text span {
+	color: #fff;
+}
+
+/* -----------------------------------
+		10. Cursor Style
+----------------------------------- */
+/* Point */
+.cursor {
+	background-color: #fff;
+}
+
+/* Border */
+.cursor-border {
+	border: 1px solid #fff;
+}
+
+/* Cursor Hover */
+.cursor-border.homing {
+	background-color: rgba(21, 21, 21, 0.7);
+}
+/* ---------------------------------
+		12. Preloader
+--------------------------------- */
+.preloader {
+	background-color: #000;
+}
+
+.preloader p,
+.preloader span {
+	color: #fff; 
+}
+
+.preloader span:after,
+.preloader span:before {
+	background: #fff;
+}
+
+.preloader p {
+	background: #fff; 
+	color: #000;
+}
+
+/* -----------------------------------
+		13. Tooltip
+----------------------------------- */
+[data-tooltip]:after {
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+[data-tooltip]:after {
+	content: attr(data-tooltip);
+	background-color: rgba(14, 15, 16, .7);
+	color: #fff;
+}
+
+/* ---------------------------------
+		14. Responsible
+--------------------------------- */
+@media screen and (max-width: 768px) {
+	.section-slider:before,
+	.about:after,
+	.blog:after,
+	.contact:after,
+	.portfolio:after,
+	.background:before {
+		border: 35px solid rgba(14, 15, 16, .7);
+	}
+}
